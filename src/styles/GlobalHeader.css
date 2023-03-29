@@ -1,0 +1,21 @@
+@import url("main.css");
+.global-header-container {
+    max-width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 200px;
+    border: 1px solid black;
+}
+
+.lang-selector {
+    height: 40px;
+    font-family: var(--font-family);
+    color: var(--color);
+}
+
+h2 {
+    margin-left: 0;
+    letter-spacing: 2px;
+}
