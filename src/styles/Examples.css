@@ -1,0 +1,12 @@
+.parallax {
+    background-image: url("../images/fondo.jpg");
+    background-size: cover;
+    height: 80%;
+}
+
+.parallax h1 {
+    font-size: 4rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 20%;
+}

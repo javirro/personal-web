@@ -1,0 +1,28 @@
+@import url('main.css');
+footer {
+    border: 2px solid black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    font-family: var(--font-family)
+}
+
+footer .footer-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    padding: 15px 500px
+}
+
+footer a {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+}

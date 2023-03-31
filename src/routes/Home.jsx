@@ -15,7 +15,7 @@ const Home = () => {
       </article>
 
       <article className='box-link'>
-        <Link className='link' to="/example">Some personal works</Link>
+        <Link className='link' to="/example">Some personal projects</Link>
       </article>
 
 

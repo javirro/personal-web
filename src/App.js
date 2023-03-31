@@ -19,7 +19,7 @@ function App () {
             <Route path='/introduction' element={<Introduction />} />
             <Route path='/work-experience' element={<WorkExperience />} />
             <Route path='/studies' element={<Studies />} />
-            <Route path='/examples' element={<Examples />} />
+            <Route path='/example' element={<Examples />} />
           </Route>
         </Routes>
       </BrowserRouter>
