@@ -1,10 +1,14 @@
 {
 
-  "prueba": "Hello this in an example",
+  "back-button": "Back",
   "dev-position": "Fullstack and blockchain developer",
   "home-introduction": "Personal introduction",
   "home-projects": "Some personal projects",
   "home-studies": "Studies",
-  "home-work-experience": "Work Experience"
+  "home-work-experience": "Work Experience",
+  "language-en": "English",
+  "language-esp": "Spanish"
+
+
 
 }

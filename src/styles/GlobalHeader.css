@@ -20,3 +20,10 @@ h2 {
     margin-left: 0;
     letter-spacing: 2px;
 }
+
+.back-button {
+    position: absolute;
+    left: 20px;
+    font-family: var(--font-family);
+    font-size: 1.1rem;
+}

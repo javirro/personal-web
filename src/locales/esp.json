@@ -1,8 +1,10 @@
 {
-  "prueba": "Hola esto es una prueba",
+  "back-button": "Atrás",
   "dev-position": "Desarrollador fullstack y blockchain",
   "home-introduction": "Introducción personal",
   "home-projects": "Proyectos personales",
   "home-studies": "Estudios",
-  "home-work-experience": "Experiencia profesional"
+  "home-work-experience": "Experiencia profesional",
+  "language-en": "Inglés",
+  "language-esp": "Español"
 }

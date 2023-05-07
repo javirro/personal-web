@@ -19,8 +19,8 @@ function App() {
 
     <IntlProvider locale={language === "en" ? "en" : "esp"} messages={language === "en" ? enMessages : espMessages}>
       <div className='global'>
-        <GlobalHeader />
         <BrowserRouter>
+          <GlobalHeader />
           <Routes>
             <Route>
               <Route path='/' element={<Home />} />
