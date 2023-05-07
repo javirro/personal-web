@@ -26,12 +26,22 @@ const Introduction = () => {
         </ul>
       </section>
 
-      <h2 className="personal-title"><FormattedMessage id="other-studies" /></h2>
-      <section className="other-studies-container">
-        <ul className="studies-list">
-        </ul>
+      <section className='other-studies-container'>
+        <div>
+          <h2 className="personal-title"><FormattedMessage id="other-studies" /></h2>
+          <div className="other-studies">
+            <article className="other-courses">📘 Blockchain developer - Udacity</article>
+            <article className="other-courses">📗 Blockchain specialization - Coursera</article>
+          </div>
+        </div>
+        <div>
+          <h2 className="personal-title"><FormattedMessage id="languages-level" /></h2>
+          <div className="other-studies">
+            <article className="other-courses">🇪🇸 <FormattedMessage id="language-esp" />: <FormattedMessage id="languages-native" /></article>
+            <article className="other-courses"> 🇬🇧 <FormattedMessage id="language-en" />: <FormattedMessage id="languages-english-c1" /></article>
+          </div>
+        </div>
       </section>
-
     </>
   )
 

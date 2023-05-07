@@ -44,9 +44,20 @@
 }
 
 .other-studies-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
+}
+
+.other-studies {
     margin-top: 30px;
     margin-left: 10%;
     margin-right: 10%;
     font-family: var(--font-family);
     font-size: 1.2rem;
+}
+
+.other-courses {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 25px
 }
