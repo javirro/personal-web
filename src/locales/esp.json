@@ -15,8 +15,8 @@
   "languages-level": "Idiomas",
   "languages-native": "Idioma nativo",
   "languages-english-c1": "Nivel C1 por Cambridge y Trinity",
-  "personal-description": "I am telecommunication engineer who was always passionated about how Internet works. During my university studies I had the opportunity to learn many things about how networks are formed to build the Internet as we know. Specially, I was fascinated about blockchain technology and all the changes that could generate in the world and how webpages are built.",
-  "personal-description-2": "During last years, I oriented my efforts to learn how to use blockchain technology appropiately. Along this time, I have worked building applications which integrate blockchain. In some cases, those applications were related to decentralized finance and other cases to  supply and production chains traceability.",
+  "personal-description": "Soy un ingeniero de telecomunicaciones muy interesado en cómo funciona Internet. Durante mi etapa universitaria, he tenido la suerte de aprender muchas cosas sobre cómo estan formadas las redes de Internet. Especialmente, me fascinó de todo lo que aprendí sobre  la tecnología de blockchain y la revolución que puede suponer en el mundo web",
+  "personal-description-2": "En los ultimos años he orientado mis esfuerzos a aprender como usar la tecnología de blockchain correctamente. Durante este tiempo, he trabajo construyendo aplicaciones web desde cero que integraban blockchain. En algunos casos, esas aplicaciones estaban relacionadas con finanzas descentralizas y otras con trazabilidad de cadenas de suministro",
   "personal-description-3": "En el futuro, espero seguir con mi aprendizaje sobre esta tecnología y  mejorando en el desarrollo  web.",
   "personal-introduction": "Introducción personal",
   "studies-pmp": "Máster en dirección de proyectos en",
@@ -26,5 +26,7 @@
   "studies-postgraduate": "Postgrado en Experto en Seguridad perimetral y de redes en",
   "studies-bachelor": "Grado en Ingeniería de tecnologías y servicios de Telecomunicaciones en",
   "universitary-studies": "Estudios universitarios",
-  "other-studies": "Otros estudios"
+  "other-studies": "Otros estudios",
+  "work-experience-glue": "(Febrero 2022 - Actualidad) – Posición tiempo completo",
+  "work-experience-glue-description": "Trabajando de desarrollador fullstack y desarrollador blockchain en una aplicación DEFI. Análisis de los requerimientos  para implementar nuevas funcionalidades"
 }

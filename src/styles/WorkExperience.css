@@ -11,3 +11,13 @@
     margin-left: 10%;
     margin-top: 30px;
 }
+
+.company-name {
+    display: block;
+    width: auto;
+    font-family: var(--font-family);
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
