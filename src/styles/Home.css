@@ -1,7 +1,7 @@
 @import url('main.css');
 .home-container {
     display: grid;
-    grid-template-columns: repeat(3, 300px);
+    grid-template-columns: repeat(3, 350px);
     grid-template-rows: repeat(1, 150px);
     justify-content: center;
     margin-top: 50px;
@@ -23,5 +23,6 @@
 
 .link {
     font-family: var(--font-family);
+    font-size: 1.3rem;
     letter-spacing: 1px;
 }
