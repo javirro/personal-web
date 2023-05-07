@@ -1,6 +1,12 @@
 {
   "back-button": "Atrás",
-  "dev-position": "Desarrollador fullstack y blockchain",
+  "dev-position": "+2 años como desarrollador fullstack y blockchain ",
+  "fav-stack": "Mis tecnologías favoritas son: ",
+  "frontend-stack": "React con JS/TS, CSS y Sass.",
+  "backend-stack": "Node con JS/TS usando Express o Koa. Uso de tecnología serverless.",
+  "blockchain-stack": "Redes blockchain compatibles con EVM. Solidity para programar smart contracts. Truffle, Remix y Hardhat para desarrollo.",
+  "git-stack": "Github y Gitlab para control de versiones.",
+  "management-stack": "Metodología SCRUM para gestión de proyectos.",
   "home-introduction": "Información personal",
   "home-projects": "Proyectos personales",
   "home-work-experience": "Experiencia profesional",
