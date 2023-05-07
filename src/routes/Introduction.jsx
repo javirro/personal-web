@@ -1,9 +1,12 @@
-import '../styles/Introduction.css'
 import pruebaImagen from '../images/fondo.jpg'
+import { FormattedMessage } from 'react-intl'
+import '../styles/Introduction.css'
+
+
 const Introduction = () => {
   return (
     <>
-    <h1 className="personal-title">Full-Stack and Blockchain Developer</h1>
+      <h1 className="personal-title"><FormattedMessage id="dev-position" /></h1>
       <div className="introduction-container">
         <p className="personal-text">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto
           de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una

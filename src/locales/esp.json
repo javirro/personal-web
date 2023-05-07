@@ -1,3 +1,8 @@
 {
-  "prueba": "Hola esto es una prueba"
+  "prueba": "Hola esto es una prueba",
+  "dev-position": "Desarrollador fullstack y blockchain",
+  "home-introduction": "Introducción personal",
+  "home-projects": "Proyectos personales",
+  "home-studies": "Estudios",
+  "home-work-experience": "Experiencia profesional"
 }

@@ -1,3 +1,10 @@
 {
-  "prueba": "Hello this in an example"
+
+  "prueba": "Hello this in an example",
+  "dev-position": "Fullstack and blockchain developer",
+  "home-introduction": "Personal introduction",
+  "home-projects": "Some personal projects",
+  "home-studies": "Studies",
+  "home-work-experience": "Work Experience"
+
 }

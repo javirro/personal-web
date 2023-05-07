@@ -7,34 +7,33 @@ import Examples from './routes/Examples'
 import GlobalHeader from './components/GlobalHeader'
 import GlobalFooter from './components/GlobalFooter'
 import { IntlProvider } from 'react-intl';
-// import enMessages from './locales/en.json';
+import enMessages from './locales/en.json';
 import espMessages from './locales/esp.json';
-import store from './redux/store'
-import { Provider } from 'react-redux'
+import { useSelector } from 'react-redux'
 
 import './styles/App.css'
 
 function App() {
+  const language = useSelector(s => s.language)
   return (
-    <Provider store={store}>
-      <IntlProvider locale="esp" messages={espMessages}>
-        <div className='global'>
-          <GlobalHeader />
-          <BrowserRouter>
-            <Routes>
-              <Route>
-                <Route path='/' element={<Home />} />
-                <Route path='/introduction' element={<Introduction />} />
-                <Route path='/work-experience' element={<WorkExperience />} />
-                <Route path='/studies' element={<Studies />} />
-                <Route path='/example' element={<Examples />} />
-              </Route>
-            </Routes>
-          </BrowserRouter>
-          <GlobalFooter />
-        </div>
-      </IntlProvider>
-    </Provider>
+
+    <IntlProvider locale={language === "en" ? "en" : "esp"} messages={language === "en" ? enMessages : espMessages}>
+      <div className='global'>
+        <GlobalHeader />
+        <BrowserRouter>
+          <Routes>
+            <Route>
+              <Route path='/' element={<Home />} />
+              <Route path='/introduction' element={<Introduction />} />
+              <Route path='/work-experience' element={<WorkExperience />} />
+              <Route path='/studies' element={<Studies />} />
+              <Route path='/example' element={<Examples />} />
+            </Route>
+          </Routes>
+        </BrowserRouter>
+        <GlobalFooter />
+      </div>
+    </IntlProvider>
   )
 }
 
