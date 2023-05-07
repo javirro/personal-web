@@ -3,8 +3,19 @@
   "dev-position": "Desarrollador fullstack y blockchain",
   "home-introduction": "Información personal",
   "home-projects": "Proyectos personales",
-  "home-studies": "Estudios",
   "home-work-experience": "Experiencia profesional",
   "language-en": "Inglés",
-  "language-esp": "Español"
+  "language-esp": "Español",
+  "personal-description": "I am telecommunication engineer who was always passionated about how Internet works. During my university studies I had the opportunity to learn many things about how networks are formed to build the Internet as we know. Specially, I was fascinated about blockchain technology and all the changes that could generate in the world and how webpages are built.",
+  "personal-description-2": "During last years, I oriented my efforts to learn how to use blockchain technology appropiately. Along this time, I have worked building applications which integrate blockchain. In some cases, those applications were related to decentralized finance and other cases to  supply and production chains traceability.",
+  "personal-description-3": "En el futuro, espero seguir con mi aprendizaje sobre esta tecnología y  mejorando en el desarrollo  web.",
+  "personal-introduction": "Introducción personal",
+  "studies-pmp": "Máster en dirección de proyectos en",
+  "studies-oviedo": "Universidad de Oviedo",
+  "studies-unir": "UNIR (Universidad internacional de la Rioja)",
+  "studies-master": "Master en Ingeniería de Telecomunicaciones en",
+  "studies-postgraduate": "Postgrado en Experto en Seguridad perimetral y de redes en",
+  "studies-bachelor": "Grado en Ingeniería de tecnologías y servicios de Telecomunicaciones en",
+  "universitary-studies": "Estudios universitarios",
+  "other-studies": "Otros estudios"
 }

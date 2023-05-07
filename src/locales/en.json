@@ -4,11 +4,21 @@
   "dev-position": "Fullstack and blockchain developer",
   "home-introduction": "Personal information",
   "home-projects": "Some personal projects",
-  "home-studies": "Studies",
   "home-work-experience": "Work Experience",
   "language-en": "English",
-  "language-esp": "Spanish"
-
+  "language-esp": "Spanish",
+  "personal-description": "I am telecommunication engineer who was always passionated about how Internet works. During my university studies I had the opportunity to learn many things about how networks are formed to build the Internet as we know. Specially, I was fascinated about blockchain technology and all the changes that could generate in the world and how webpages are built.",
+  "personal-description-2": "During last years, I oriented my efforts to learn how to use blockchain technology appropiately. Along this time, I have worked building applications which integrate blockchain. In some cases, those applications were related to decentralized finance and other cases to  supply and production chains traceability.",
+  "personal-description-3": "In the future, I hope to continue with my learning about this technology and the web application development.",
+  "personal-introduction": "Personal introduction",
+  "studies-pmp": "Master in project management at",
+  "studies-oviedo": "University of Oviedo",
+  "studies-unir": "UNIR (International University of La Rioja)",
+  "studies-master": "Master in Telecommunication Engineering at",
+  "studies-postgraduate": "Postgraduate degree in Expert in Perimeter and Network Security at",
+  "studies-bachelor": "Bachelor’s Degree in Engineering of Technologies and services of Telecommunication at",
+  "universitary-studies": "University studies",
+  "other-studies": "Other studies"
 
 
 }

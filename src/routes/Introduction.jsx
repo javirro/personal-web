@@ -6,16 +6,32 @@ import '../styles/Introduction.css'
 const Introduction = () => {
   return (
     <>
-      <h1 className="personal-title"><FormattedMessage id="dev-position" /></h1>
-      <div className="introduction-container">
-        <p className="personal-text">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto
-          de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una
-          galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó
-          como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas
-          "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición,
-          como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
+      <h2 className="personal-title"><FormattedMessage id="personal-introduction" /></h2>
+      <section className="introduction-container">
+        <div id="personal-text-container">
+          <p className="personal-text"><FormattedMessage id="personal-description" /></p>
+          <p className="personal-text"><FormattedMessage id="personal-description-2" /></p>
+          <p className="personal-text"><FormattedMessage id="personal-description-3" /></p>
+        </div>
         <img src={pruebaImagen} alt="prueba" className="personal-img" />
-      </div>
+      </section>
+
+      <h2 className="personal-title"><FormattedMessage id="universitary-studies" /></h2>
+      <section className="studies-container">
+        <ul className="studies-list">
+          <li><FormattedMessage id="studies-pmp" /> <FormattedMessage id="studies-unir" /> (2022)</li>
+          <li><FormattedMessage id="studies-master" /> <FormattedMessage id="studies-oviedo" /> (2018 - 2020)</li>
+          <li><FormattedMessage id="studies-postgraduate" /> <FormattedMessage id="studies-oviedo" /> (2019)</li>
+          <li><FormattedMessage id="studies-bachelor" /> <FormattedMessage id="studies-oviedo" /> (2014 - 2018)</li>
+        </ul>
+      </section>
+
+      <h2 className="personal-title"><FormattedMessage id="other-studies" /></h2>
+      <section className="other-studies-container">
+        <ul className="studies-list">
+        </ul>
+      </section>
+
     </>
   )
 

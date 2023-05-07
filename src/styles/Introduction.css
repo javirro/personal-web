@@ -1,16 +1,16 @@
 @import url("main.css");
 .introduction-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 66% 33%;
     border: 2px solid black;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 12%;
+    margin-right: 12%;
     margin-top: 20px;
 }
 
 .personal-title {
     font-family: var(--font-family);
-    font-size: 2rem;
+    font-size: 1.6rem;
     margin-left: 10%;
     margin-top: 30px;
 }
@@ -19,7 +19,7 @@
     font-family: var(--font-family);
     font-size: 1.2rem;
     text-align: center;
-    padding: 10px 15px 10px 15px;
+    padding: 5px 15px 5px 15px;
     line-height: 1.5;
 }
 
@@ -29,4 +29,24 @@
     padding: 20px 15px 10px 15px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.studies-container {
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: var(--font-family);
+    font-size: 1.2rem;
+}
+
+.studies-list {
+    line-height: 1.7;
+}
+
+.other-studies-container {
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: var(--font-family);
+    font-size: 1.2rem;
 }
