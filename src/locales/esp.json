@@ -28,5 +28,14 @@
   "universitary-studies": "Estudios universitarios",
   "other-studies": "Otros estudios",
   "work-experience-glue": "(Febrero 2022 - Actualidad) – Posición tiempo completo",
-  "work-experience-glue-description": "Trabajando de desarrollador fullstack y desarrollador blockchain en una aplicación DEFI. Análisis de los requerimientos  para implementar nuevas funcionalidades"
+  "work-experience-glue-description": "Trabajando de desarrollador fullstack y desarrollador blockchain en una aplicación DEFI. Análisis de los requerimientos  para implementar nuevas funcionalidades",
+  "work-experience-cetim-full": "(Septiembre 2021 – Febrero 2022) – Posición tiempo completo",
+  "work-experience-cetim-partial": "(Junio 2022 – Abril 2023) – Posición tiempo parcial",
+  "work-experience-cetim-dev-full": "Trabajando de desarrollador fullstack y blockchain en proyectos de I+D. Desarrollando aplicaciones desde cero. Responsable de elegir el stack apropiado. Único desarrollador.",
+  "work-experience-cetim-clients-full": "Trato directo con clientes para entender sus requisitos.",
+  "work-experience-cetim-docu-full": "Escribir documentación técnica sobre el trabajo realizado.",
+  "work-experience-cetim-dev-partial": "Trabajando de desarrollador fullstack y blockchain en proyectos de I+D. Al cargo del equipo de trabajo en proyectos que involucraban desarrollo de software.",
+  "work-experience-cetim-clients-partial": "Trato directo con clientes para entender sus requisitos y negociación de los términos del proyecto.",
+  "work-experience-cetim-advise-partial": "Asesoramiento en las alternativas de implementación en proyectos relacionados con el desarrollo de software.",
+  "work-experience-cetim-docu-partial": "Escribir documentación técnica y ayuda en la gestión de proyectos."
 }

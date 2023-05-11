@@ -21,3 +21,9 @@
     text-decoration: none;
     color: black;
 }
+
+.jobs-description-list {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}

@@ -24,9 +24,20 @@ const WorkExperience = () => {
             <p><FormattedMessage id="work-experience-glue-description" /></p>
           </li>
           <li>
-            <a className="company-name" href={cetim} target="_blank" rel="noreferrer">Cetim </a>
-            <ul>(September 2021 – February 2022) – Full time Position
-              <p>Front-end, back-end</p>
+            <a className="company-name" href={cetim} target="_blank" rel="noreferrer">Cetim <FormattedMessage id="work-experience-cetim-partial" /></a>
+            <ul className="jobs-description-list">
+              <li><FormattedMessage id="work-experience-cetim-dev-partial" /></li>
+              <li><FormattedMessage id="work-experience-cetim-clients-partial" /></li>
+              <li><FormattedMessage id="work-experience-cetim-advise-partial" /></li>
+              <li><FormattedMessage id="work-experience-cetim-docu-partial" /></li>
+            </ul>
+          </li>
+          <li>
+            <a className="company-name" href={cetim} target="_blank" rel="noreferrer">Cetim <FormattedMessage id="work-experience-cetim-full" /></a>
+            <ul className="jobs-description-list">
+              <li><FormattedMessage id="work-experience-cetim-dev-full" /></li>
+              <li><FormattedMessage id="work-experience-cetim-clients-full" /></li>
+              <li><FormattedMessage id="work-experience-cetim-docu-full" /></li>
             </ul>
           </li>
         </ul>
