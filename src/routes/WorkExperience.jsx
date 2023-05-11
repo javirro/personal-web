@@ -3,10 +3,11 @@ import '../styles/WorkExperience.css'
 const WorkExperience = () => {
   const glueDigital = "https://glue.digital/"
   const cetim = "https://cetim.es/"
+  const openWebinars = "https://openwebinars.net/profesores/javier-rodriguez-fernandez/"
   return (
     <div>
       <h2 className="personal-title"><FormattedMessage id="dev-position" /></h2>
-      <section className="section-container">
+      {/* <section className="section-container">
         <h3><FormattedMessage id="fav-stack" /></h3>
         <ul>
           <li>Front-end: <FormattedMessage id="frontend-stack" /> </li>
@@ -15,13 +16,17 @@ const WorkExperience = () => {
           <li><FormattedMessage id="git-stack" /> </li>
           <li><FormattedMessage id="management-stack" /> </li>
         </ul>
-      </section>
+      </section> */}
       <h2 className="personal-title"><FormattedMessage id="home-work-experience" /></h2>
       <section className="section-container">
         <ul>
           <li>
             <a className="company-name" href={glueDigital} target="_blank" rel="noreferrer">Glue Digital <FormattedMessage id="work-experience-glue" /></a>
-            <p><FormattedMessage id="work-experience-glue-description" /></p>
+            <ul className="jobs-description-list">
+              <li><FormattedMessage id="work-experience-glue-dev" /></li>
+              <li><FormattedMessage id="work-experience-glue-organise" /></li>
+              <li><FormattedMessage id="work-experience-glue-analyse" /></li>
+            </ul>
           </li>
           <li>
             <a className="company-name" href={cetim} target="_blank" rel="noreferrer">Cetim <FormattedMessage id="work-experience-cetim-partial" /></a>
@@ -38,6 +43,18 @@ const WorkExperience = () => {
               <li><FormattedMessage id="work-experience-cetim-dev-full" /></li>
               <li><FormattedMessage id="work-experience-cetim-clients-full" /></li>
               <li><FormattedMessage id="work-experience-cetim-docu-full" /></li>
+            </ul>
+          </li>
+          <li>
+            <a className="company-name" href={openWebinars} target="_blank" rel="noreferrer">OpenWebinars <FormattedMessage id="work-experience-openwebinars" /></a>
+            <ul className="jobs-description-list">
+              <li><FormattedMessage id="work-experience-opewebinars-description" /></li>
+            </ul>
+          </li>
+          <li>
+            <a className="company-name" href={openWebinars} target="_blank" rel="noreferrer"><FormattedMessage id="studies-oviedo" /> <FormattedMessage id="work-experience-university" /></a>
+            <ul className="jobs-description-list">
+              <li><FormattedMessage id="work-experience-university-description" /></li>
             </ul>
           </li>
         </ul>
