@@ -4,20 +4,14 @@ import { FormattedMessage } from 'react-intl'
 
 const Home = () => {
   return (
-    <main>
+    <main className="main-home-container">
       <header>
         <h1>Welcome to my Personal Page</h1>
       </header>
-      <div className='home-container'>
-        <article className='box-link'>
+      <div className="body-home-container">
           <Link className='link' to="/personal-info"><FormattedMessage id="home-introduction" /></Link>
-        </article>
-        <article className='box-link'>
           <Link className='link' to="/work-experience"><FormattedMessage id="home-work-experience" /></Link>
-        </article>
-        <article className='box-link'>
           <Link className='link' to="/example"><FormattedMessage id="home-projects" /></Link>
-        </article>
       </div>
     </main>
   )

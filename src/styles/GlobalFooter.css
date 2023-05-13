@@ -4,14 +4,14 @@ footer {
     justify-content: center;
     text-align: center;
     align-items: center;
+    position: sticky;
     gap: 50px;
     bottom: 0;
     width: 100%;
-    height: 40px;
+    height: var(--footer-height);
     padding-top: 5px;
     padding-bottom: 5px;
     border-top: 2px solid black;
-    position: fixed;
     font-family: var(--font-family);
     background-color: blue;
 }

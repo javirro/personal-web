@@ -1,9 +1,14 @@
+@import url('main.css');
 .global {
-    overflow: auto;
+    overflow: hidden;
     max-width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - var(--footer-height));
 }
 
 body {
-    overflow-y: hidden;
+    overflow-y: none;
     overflow-x: none;
 }

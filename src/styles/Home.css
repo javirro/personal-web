@@ -1,5 +1,12 @@
 @import url('main.css');
-.home-container {
+.main-home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.body-home-container {
     display: grid;
     grid-template-columns: repeat(3, 350px);
     grid-template-rows: repeat(1, 150px);
@@ -8,20 +15,17 @@
     margin-left: 20px;
 }
 
-.box-link {
-    border-radius: 10px;
-    border: 2px solid black;
-    margin: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .box-link:hover {
     border: 5px solid red;
 }
 
 .link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 15px;
+    border: 2px solid black;
     font-family: var(--font-family);
     font-size: 1.1rem;
     letter-spacing: 1px;
