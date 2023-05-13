@@ -1,4 +1,5 @@
-import pruebaImagen from '../images/fondo.jpg'
+// import pruebaImagen from '../images/fondo.jpg'
+import personalImg from '../images/personaPhoto.jpeg'
 import { FormattedMessage } from 'react-intl'
 import '../styles/Introduction.css'
 
@@ -13,7 +14,7 @@ const Introduction = () => {
           <p className="personal-text"><FormattedMessage id="personal-description-2" /></p>
           <p className="personal-text"><FormattedMessage id="personal-description-3" /></p>
         </div>
-        <img src={pruebaImagen} alt="prueba" className="personal-img" />
+        <img src={personalImg} alt="prueba" className="personal-img" />
       </section>
 
       <h2 className="personal-title"><FormattedMessage id="universitary-studies" /></h2>
@@ -32,15 +33,15 @@ const Introduction = () => {
         <div>
           <h2 className="other-title"><FormattedMessage id="other-studies" /></h2>
           <div className="other-studies">
-            <article className="other-courses">📘 Blockchain developer - Udacity</article>
-            <article className="other-courses">📗 Blockchain specialization - Coursera</article>
+            <article className="other-studies-item">📘 Blockchain developer - Udacity</article>
+            <article className="other-studies-item">📗 Blockchain specialization - Coursera</article>
           </div>
         </div>
         <div>
           <h2 className="other-title"><FormattedMessage id="languages-level" /></h2>
           <div className="other-studies">
-            <article className="other-courses">🇪🇸 <FormattedMessage id="language-esp" />: <FormattedMessage id="languages-native" /></article>
-            <article className="other-courses"> 🇬🇧 <FormattedMessage id="language-en" />: <FormattedMessage id="languages-english-c1" /></article>
+            <article className="other-studies-item">🇪🇸 <FormattedMessage id="language-esp" />: <FormattedMessage id="languages-native" /></article>
+            <article className="other-studies-item"> 🇬🇧 <FormattedMessage id="language-en" />: <FormattedMessage id="languages-english-c1" /></article>
           </div>
         </div>
       </section>

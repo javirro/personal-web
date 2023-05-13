@@ -32,6 +32,7 @@ header {
     margin: 15px;
     border: 3px solid #010448;
     box-shadow: 4px 4px 4px #0009ab;
+    background: linear-gradient(#010786, #01099c);
     color: white;
     text-decoration: none;
     font-family: var(--font-family);
