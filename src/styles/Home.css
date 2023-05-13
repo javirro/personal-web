@@ -20,8 +20,8 @@ header {
     color: white;
 }
 
-.box-link:hover {
-    border: 5px solid red;
+.link:hover {
+    border: 5px solid rgb(26, 53, 255);
 }
 
 .link {
