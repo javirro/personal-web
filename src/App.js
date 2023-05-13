@@ -19,6 +19,7 @@ function App() {
 
     <IntlProvider locale={language === "en" ? "en" : "esp"} messages={language === "en" ? enMessages : espMessages}>
       <div className='global'>
+
         <BrowserRouter>
           <GlobalHeader />
           <Routes>
@@ -30,8 +31,8 @@ function App() {
             </Route>
           </Routes>
         </BrowserRouter>
-        <GlobalFooter />
       </div>
+      <GlobalFooter />
     </IntlProvider>
   )
 }

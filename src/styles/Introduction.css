@@ -10,21 +10,21 @@
 
 .personal-title {
     font-family: var(--font-family);
-    font-size: 1.6rem;
+    font-size: 1rem;
     margin-left: 10%;
     margin-top: 30px;
 }
 
 .personal-text {
     font-family: var(--font-family);
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     text-align: center;
     padding: 5px 15px 5px 15px;
     line-height: 1.5;
 }
 
 .personal-img {
-    width: 400px;
+    width: 300px;
     height: 250px;
     padding: 20px 15px 10px 15px;
     margin-left: auto;
@@ -36,11 +36,11 @@
     margin-left: 10%;
     margin-right: 10%;
     font-family: var(--font-family);
-    font-size: 1.2rem;
+    font-size: 0.9rem;
 }
 
 .studies-list {
-    line-height: 1.6;
+    line-height: 1.4;
 }
 
 .other-studies-container {
@@ -51,9 +51,9 @@
 }
 
 .other-studies {
-    margin-top: 20px;
+    margin-top: 10px;
     font-family: var(--font-family);
-    font-size: 1.2rem;
+    font-size: 0.9rem;
 }
 
 .other-courses {
@@ -64,6 +64,6 @@
 
 .other-title {
     font-family: var(--font-family);
-    font-size: 1.6rem;
+    font-size: 1.1rem;
     margin-top: 15px;
 }
