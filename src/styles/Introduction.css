@@ -1,4 +1,10 @@
 @import url("main.css");
+.intro-global-container {
+    position: relative;
+    height: 100vh;
+    overflow: auto;
+}
+
 .introduction-container {
     display: grid;
     grid-template-columns: 66% 33%;
