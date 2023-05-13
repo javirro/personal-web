@@ -6,7 +6,6 @@ const WorkExperience = () => {
   const openWebinars = "https://openwebinars.net/profesores/javier-rodriguez-fernandez/"
   return (
     <div>
-      <h2 className="personal-title"><FormattedMessage id="dev-position" /></h2>
       {/* <section className="section-container">
         <h3><FormattedMessage id="fav-stack" /></h3>
         <ul>
@@ -17,7 +16,7 @@ const WorkExperience = () => {
           <li><FormattedMessage id="management-stack" /> </li>
         </ul>
       </section> */}
-      <h2 className="personal-title"><FormattedMessage id="home-work-experience" /></h2>
+      <h2 className="personal-title"><FormattedMessage id="home-work-experience" />: <FormattedMessage id="dev-position" /></h2>
       <section className="section-container">
         <ul>
           <li>
@@ -26,6 +25,7 @@ const WorkExperience = () => {
               <li><FormattedMessage id="work-experience-glue-dev" /></li>
               <li><FormattedMessage id="work-experience-glue-organise" /></li>
               <li><FormattedMessage id="work-experience-glue-analyse" /></li>
+              <li><b><FormattedMessage id="work-experience-stack" /></b><FormattedMessage id="work-experience-glue-tech" /></li>
             </ul>
           </li>
           <li>
@@ -35,6 +35,7 @@ const WorkExperience = () => {
               <li><FormattedMessage id="work-experience-cetim-clients-partial" /></li>
               <li><FormattedMessage id="work-experience-cetim-advise-partial" /></li>
               <li><FormattedMessage id="work-experience-cetim-docu-partial" /></li>
+              <li><b><FormattedMessage id="work-experience-stack" /></b> <FormattedMessage id="work-experience-cetim-tech-partial" /></li>
             </ul>
           </li>
           <li>
@@ -43,6 +44,7 @@ const WorkExperience = () => {
               <li><FormattedMessage id="work-experience-cetim-dev-full" /></li>
               <li><FormattedMessage id="work-experience-cetim-clients-full" /></li>
               <li><FormattedMessage id="work-experience-cetim-docu-full" /></li>
+              <li><b><FormattedMessage id="work-experience-stack" /></b><FormattedMessage id="work-experience-cetim-tech-full" /></li>
             </ul>
           </li>
           <li>
