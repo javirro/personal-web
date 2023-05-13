@@ -20,10 +20,10 @@ const Introduction = () => {
       <h2 className="personal-title"><FormattedMessage id="universitary-studies" /></h2>
       <section className="studies-container">
         <ul className="studies-list">
-          <li><FormattedMessage id="studies-pmp" /> <FormattedMessage id="studies-unir" /> (2022)</li>
-          <li><FormattedMessage id="studies-master" /> <FormattedMessage id="studies-oviedo" /> (2018 - 2020)</li>
-          <li><FormattedMessage id="studies-postgraduate" /> <FormattedMessage id="studies-oviedo" /> (2019)</li>
-          <li><FormattedMessage id="studies-bachelor" /> <FormattedMessage id="studies-oviedo" /> (2014 - 2018)</li>
+          <li><FormattedMessage id="studies-pmp" /> <FormattedMessage id="studies-unir" /> <span className="year-studies">(2022)</span></li>
+          <li><FormattedMessage id="studies-master" /> <FormattedMessage id="studies-oviedo" /> <span className="year-studies">(2018 - 2020)</span></li>
+          <li><FormattedMessage id="studies-postgraduate" /> <FormattedMessage id="studies-oviedo" /><span className="year-studies"> (2019)</span> </li>
+          <li><FormattedMessage id="studies-bachelor" /> <FormattedMessage id="studies-oviedo" /> <span className="year-studies">(2014 - 2018)</span></li>
         </ul>
       </section>
 

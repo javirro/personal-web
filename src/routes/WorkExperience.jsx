@@ -11,7 +11,7 @@ const WorkExperience = () => {
 
   const handleFavStackClick = () =>{ setIsShownFavStack(true) }
   return (
-    <div>
+    <div className="work-experience-container">
       <h2 className="personal-title"><FormattedMessage id="home-work-experience" />: <FormattedMessage id="dev-position" />
       <button className="fav-stack-btn" onClick={handleFavStackClick}>⭐ Fav stack</button>
       </h2>

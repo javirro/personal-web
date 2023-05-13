@@ -41,3 +41,9 @@ h2 {
     color: white;
     text-decoration: none;
 }
+
+.back-button:hover {
+    transition: ease-in 0.2s;
+    background: rgb(8, 27, 170);
+    border: 3px solid rgb(47, 71, 246);
+}

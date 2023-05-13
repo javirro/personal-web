@@ -1,4 +1,8 @@
 @import url("main.css");
+.work-experience-container {
+    overflow: auto;
+}
+
 .section-container {
     margin-left: 12%;
     margin-right: 12%;
