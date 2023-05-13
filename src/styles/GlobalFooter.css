@@ -1,6 +1,6 @@
 @import url('main.css');
 footer {
-    border: 2px solid black;
+    border-top: 2px solid black;
     position: fixed;
     bottom: 0;
     width: 100%;

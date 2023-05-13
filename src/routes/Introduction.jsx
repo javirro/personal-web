@@ -5,7 +5,7 @@ import '../styles/Introduction.css'
 
 const Introduction = () => {
   return (
-    <>
+    <div className="intro-global-container">
       <h2 className="personal-title"><FormattedMessage id="personal-introduction" /></h2>
       <section className="introduction-container">
         <div id="personal-text-container">
@@ -26,6 +26,8 @@ const Introduction = () => {
         </ul>
       </section>
 
+
+
       <section className='other-studies-container'>
         <div>
           <h2 className="other-title"><FormattedMessage id="other-studies" /></h2>
@@ -42,7 +44,7 @@ const Introduction = () => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   )
 
 }

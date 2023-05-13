@@ -1,22 +1,22 @@
 import { FormattedMessage } from 'react-intl'
+import { useState } from 'react'
+import FavStack from '../components/FavStack'
 import '../styles/WorkExperience.css'
+
 const WorkExperience = () => {
+  const [isShownFavStack, setIsShownFavStack] = useState(false)
   const glueDigital = "https://glue.digital/"
   const cetim = "https://cetim.es/"
   const openWebinars = "https://openwebinars.net/profesores/javier-rodriguez-fernandez/"
+
+  const handleFavStackClick = () =>{ setIsShownFavStack(true) }
   return (
     <div>
-      {/* <section className="section-container">
-        <h3><FormattedMessage id="fav-stack" /></h3>
-        <ul>
-          <li>Front-end: <FormattedMessage id="frontend-stack" /> </li>
-          <li>Back-end: <FormattedMessage id="backend-stack" /> </li>
-          <li>Blockchain: <FormattedMessage id="blockchain-stack" /> </li>
-          <li><FormattedMessage id="git-stack" /> </li>
-          <li><FormattedMessage id="management-stack" /> </li>
-        </ul>
-      </section> */}
-      <h2 className="personal-title"><FormattedMessage id="home-work-experience" />: <FormattedMessage id="dev-position" /></h2>
+
+      <h2 className="personal-title"><FormattedMessage id="home-work-experience" />: <FormattedMessage id="dev-position" />
+      <button className="fav-stack-btn" onClick={handleFavStackClick}>⭐ Fav stack</button>
+      </h2>
+      {isShownFavStack && <FavStack setIsShownFavStack={setIsShownFavStack}/>}
       <section className="section-container">
         <ul>
           <li>

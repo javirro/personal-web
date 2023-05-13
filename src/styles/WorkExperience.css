@@ -27,3 +27,11 @@
     margin-bottom: 10px;
     line-height: 1.5;
 }
+
+.fav-stack-btn {
+    margin-left: 10px;
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid rgb(66, 66, 66);
+    font-size: 1.2rem;
+}

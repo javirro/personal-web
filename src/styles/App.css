@@ -1,5 +1,5 @@
 .global {
-    overflow: hidden;
+    overflow: auto;
     max-width: 100%;
 }
 

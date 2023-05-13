@@ -19,7 +19,7 @@
   "personal-description-2": "En los ultimos años he orientado mis esfuerzos a aprender como usar la tecnología de blockchain correctamente. Durante este tiempo, he trabajo construyendo aplicaciones web desde cero que integraban blockchain. En algunos casos, esas aplicaciones estaban relacionadas con finanzas descentralizas y otras con trazabilidad de cadenas de suministro",
   "personal-description-3": "En el futuro, espero seguir con mi aprendizaje sobre esta tecnología y  mejorando en el desarrollo  web.",
   "personal-introduction": "Introducción personal",
-  "studies-pmp": "Máster en dirección de proyectos en",
+  "studies-pmp": "Máster en Dirección de Proyectos en",
   "studies-oviedo": "Universidad de Oviedo",
   "studies-unir": "UNIR (Universidad internacional de la Rioja)",
   "studies-master": "Master en Ingeniería de Telecomunicaciones en",
@@ -31,7 +31,7 @@
   "work-experience-glue-dev": "Trabajando de desarrollador fullstack y blockchain. Desarrollo de producto propia, aplicación de finanzas descentralizadas (DEFI).",
   "work-experience-glue-organise": "Organización desarrollos de front-end, back-end y blockchain para mantener coordinación entre ellas.",
   "work-experience-glue-analyse": "Analizar requisitos del dueño del producto para implementar nuevas funcionalidades.",
-  "work-experience-glue-tech": "React con TS, Node con TS, graphQL, Fantom blockchain y solidity para smart contracts. Gitlab como repositorio y SCRUM como metodología de gestión.",
+  "work-experience-glue-tech": "React con TS, SASS, Node con TS, graphQL, Fantom blockchain y solidity para smart contracts. Gitlab como repositorio y SCRUM como metodología de gestión.",
   "work-experience-stack": "Stack: ",
   "work-experience-cetim-tech-partial": "React.js, Node.js, Microsoft Azure como plataforma Cloud. Fantom blockchain y solidity para smart contracts. Github como repositorio.",
   "work-experience-cetim-tech-full": "React.js, Vanilla Javascript con HTML y Bootstrap, Node.js, Google Firebase como plataforma cloud. Fantom blockchain y solidity para smart contracts. Github como repositorio.",
@@ -47,5 +47,6 @@
   "work-experience-opewebinars-description": "Profesor de cursos online relacionados con la tecnología de blockchain y el desarrollo de smart contracts.",
   "work-experience-openwebinars": "(Octubre 2021)",
   "work-experience-university": "(Octubre 2019 - Agosto 2021)",
-  "work-experience-university-description": "Profesor substituto en los grados de Ingeniería de Telecomunicaciones y en Ingeniería de software."
+  "work-experience-university-description": "Profesor substituto en los grados de Ingeniería de Telecomunicaciones y en Ingeniería de software.",
+  "work-experience-fav-close": "Cerrar"
 }
