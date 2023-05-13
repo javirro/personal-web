@@ -8,6 +8,8 @@
     gap: 200px;
     border: 1px solid black;
     position: sticky;
+    background: linear-gradient(to right, #010537, #010548);
+    color: white
 }
 
 .lang-selector {
@@ -32,9 +34,10 @@ h2 {
     left: 20px;
     padding: 5px 10px;
     border-radius: 7px;
-    border: 1px solid black;
+    border: 3px solid rgb(8, 27, 170);
     font-family: var(--font-family);
     font-size: 1rem;
-    color: black;
+    font-weight: 600;
+    color: white;
     text-decoration: none;
 }

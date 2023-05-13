@@ -6,6 +6,10 @@
     flex-direction: column;
 }
 
+header {
+    color: white;
+}
+
 .body-home-container {
     display: grid;
     grid-template-columns: repeat(3, 350px);
@@ -13,6 +17,7 @@
     justify-content: center;
     margin-top: 50px;
     margin-left: 20px;
+    color: white;
 }
 
 .box-link:hover {
@@ -25,8 +30,12 @@
     align-items: center;
     border-radius: 10px;
     margin: 15px;
-    border: 2px solid black;
+    border: 3px solid #010448;
+    box-shadow: 4px 4px 4px #0009ab;
+    color: white;
+    text-decoration: none;
     font-family: var(--font-family);
     font-size: 1.1rem;
+    font-weight: 600;
     letter-spacing: 1px;
 }

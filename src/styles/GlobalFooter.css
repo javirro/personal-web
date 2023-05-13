@@ -13,7 +13,7 @@ footer {
     padding-bottom: 5px;
     border-top: 2px solid black;
     font-family: var(--font-family);
-    background-color: blue;
+    background: linear-gradient(to right, #010537, #010548);
 }
 
 footer img {
