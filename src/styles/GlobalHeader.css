@@ -13,14 +13,17 @@
 }
 
 .lang-selector {
-    height: 30px;
-    font-family: var(--font-family);
-    color: var(--color);
     padding: 5px;
-}
-
-option {
-    font-family: 0.9rem;
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+    outline: 3px solid rgb(8, 27, 170);
+    background: rgba(113, 165, 255, 0.9);
+    font-family: var(--font-family);
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: rgb(10, 0, 64);
+    cursor: pointer;
 }
 
 h2 {
