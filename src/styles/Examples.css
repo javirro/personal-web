@@ -1,0 +1,18 @@
+.examples-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wip-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-example {
+    color: yellow;
+    font-size: 1.5rem;
+}
