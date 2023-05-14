@@ -15,6 +15,11 @@
     font-weight: bold;
 }
 
+.dev-position-year {
+    color: yellow;
+    font-weight: bold;
+}
+
 .personal-title {
     font-family: var(--font-family);
     font-size: 1.1rem;
@@ -30,7 +35,7 @@
     font-size: 0.95rem;
     font-weight: bold;
     text-decoration: none;
-    color: white;
+    color: yellow;
 }
 
 .jobs-description-list {
@@ -50,6 +55,7 @@
     background: rgba(113, 165, 255, 0.9);
     font-size: 0.9rem;
     font-family: var(--font-family);
+    cursor: pointer;
 }
 
 .fav-stack-btn:hover {

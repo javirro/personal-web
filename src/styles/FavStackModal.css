@@ -12,12 +12,11 @@
 }
 
 .fav-stack-content {
-    background-color: #fff;
+    background-color: rgba(113, 165, 255, 0.9);
     padding: 20px;
     border-radius: 4px;
-    max-width: 500px;
+    max-width: 600px;
     width: 90%;
-    text-align: center;
 }
 
 .modal-fav-stack-header {
@@ -25,10 +24,36 @@
     align-items: center;
     justify-content: space-between;
     gap: 40px;
+    color: black;
 }
 
 .close-btn {
-    padding: 8px;
+    padding: 6px 8px;
+    border: 3px solid rgb(61, 84, 255);
+    border-radius: 5px;
+    background-color: rgb(7, 12, 162);
     font-family: var(--font-family);
     font-size: 0.8rem;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    background-color: rgb(23, 30, 231);
+}
+
+.fav-stack-section {
+    margin-top: 5px;
+}
+
+.fav-stack-section ul {
+    font-size: 0.9rem;
+    font-family: var(--font-family);
+    line-height: 1.4;
+    list-style-type: none;
+}
+
+.fav-stack-section li::before {
+    content: "⭐ ";
 }

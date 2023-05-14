@@ -19,7 +19,7 @@ const WorkExperience = () => {
       <section className="section-container">
         <ul>
           <li>
-            <a className="company-name" href={glueDigital} target="_blank" rel="noreferrer"><span className="dev-position-title">Glue Digital</span> <FormattedMessage id="work-experience-glue" /></a>
+            <a className="company-name" href={glueDigital} target="_blank" rel="noreferrer">Glue Digital <FormattedMessage id="work-experience-glue" /></a>
             <ul className="jobs-description-list">
               <li><FormattedMessage id="work-experience-glue-dev" /></li>
               <li><FormattedMessage id="work-experience-glue-organise" /></li>
@@ -28,7 +28,7 @@ const WorkExperience = () => {
             </ul>
           </li>
           <li>
-            <a className="company-name" href={cetim} target="_blank" rel="noreferrer"><span className="dev-position-title">Cetim</span> <FormattedMessage id="work-experience-cetim-partial" /></a>
+            <a className="company-name" href={cetim} target="_blank" rel="noreferrer">Cetim <FormattedMessage id="work-experience-cetim-partial" /></a>
             <ul className="jobs-description-list">
               <li><FormattedMessage id="work-experience-cetim-dev-partial" /></li>
               <li><FormattedMessage id="work-experience-cetim-clients-partial" /></li>
@@ -38,7 +38,7 @@ const WorkExperience = () => {
             </ul>
           </li>
           <li>
-            <a className="company-name" href={cetim} target="_blank" rel="noreferrer"><span className="dev-position-title">Cetim</span> <FormattedMessage id="work-experience-cetim-full" /></a>
+            <a className="company-name" href={cetim} target="_blank" rel="noreferrer">Cetim <FormattedMessage id="work-experience-cetim-full" /></a>
             <ul className="jobs-description-list">
               <li><FormattedMessage id="work-experience-cetim-dev-full" /></li>
               <li><FormattedMessage id="work-experience-cetim-clients-full" /></li>
@@ -47,13 +47,13 @@ const WorkExperience = () => {
             </ul>
           </li>
           <li>
-            <a className="company-name" href={openWebinars} target="_blank" rel="noreferrer"><span className="dev-position-title">OpenWebinars</span><FormattedMessage id="work-experience-openwebinars" /></a>
+            <a className="company-name" href={openWebinars} target="_blank" rel="noreferrer">OpenWebinars <FormattedMessage id="work-experience-openwebinars" /></a>
             <ul className="jobs-description-list">
               <li><FormattedMessage id="work-experience-opewebinars-description" /></li>
             </ul>
           </li>
           <li>
-            <a className="company-name" href={openWebinars} target="_blank" rel="noreferrer"><span className="dev-position-title"><FormattedMessage id="studies-oviedo" /></span> <FormattedMessage id="work-experience-university" /></a>
+            <a className="company-name" href={openWebinars} target="_blank" rel="noreferrer"><FormattedMessage id="studies-oviedo" /> <FormattedMessage id="work-experience-university" /></a>
             <ul className="jobs-description-list">
               <li><FormattedMessage id="work-experience-university-description" /></li>
             </ul>
