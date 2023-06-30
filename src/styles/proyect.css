@@ -1,6 +1,6 @@
 .proyect-container {
     padding: 15px 10px;
-    width: 180px;
+    width: 200px;
     border-radius: 8px;
     border: 3px solid gold;
     background-color: rgb(119, 147, 248);
@@ -10,23 +10,76 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
 }
 
 .proyect-img {
-    width: 160px;
-    height: 160px;
+    width: 170px;
+    height: 170px;
 }
 
 .description-title {
     margin-top: 3px;
     margin-bottom: 12px;
-    color: yellow;
+    padding: 3px 8px;
+    background: darkgoldenrod;
+    border-radius: 6px;
+    color: rgb(225, 225, 10);
+    font-weight: bold;
+    font-size: 1rem;
     letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.description-title:hover {
+    background: rgb(81, 58, 2);
 }
 
 .description-text {
     overflow-wrap: break-word;
     text-align: center;
     font-size: 0.9rem;
+}
+
+.git-container {
+    position: relative;
+    display: flex;
+    gap: 30px;
+    flex: 1;
+}
+
+.front-git-text:hover::before {
+    content: "Front-end";
+    display: inline;
+    position: absolute;
+    z-index: 100;
+    bottom: -30px;
+    left: -10px;
+    width: 60px;
+    text-align: center;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: darkgrey;
+    font-size: 0.66rem;
+}
+
+.back-git-text:hover::before {
+    content: "Back-end";
+    display: inline;
+    position: absolute;
+    z-index: 100;
+    bottom: -30px;
+    left: 40px;
+    width: 60px;
+    text-align: center;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: darkgrey;
+    font-size: 0.66rem;
+}
+
+.github-img {
+    width: 30px;
+    height: 30px;
 }
