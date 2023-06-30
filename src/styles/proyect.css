@@ -1,16 +1,32 @@
 .proyect-container {
+    padding: 15px 10px;
+    width: 180px;
     border-radius: 8px;
     border: 3px solid gold;
-    padding: 15px 10px;
+    background-color: rgb(119, 147, 248);
 }
 
 .proyect-info {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .proyect-img {
-    width: 150px;
+    width: 160px;
+    height: 160px;
+}
+
+.description-title {
+    margin-top: 3px;
+    margin-bottom: 12px;
+    color: yellow;
+    letter-spacing: 1px;
+}
+
+.description-text {
+    overflow-wrap: break-word;
+    text-align: center;
+    font-size: 0.9rem;
 }

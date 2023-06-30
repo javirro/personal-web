@@ -16,3 +16,8 @@
     color: yellow;
     font-size: 1.5rem;
 }
+
+.examples-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+}

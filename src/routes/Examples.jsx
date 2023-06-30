@@ -1,9 +1,8 @@
 import { FormattedMessage } from 'react-intl'
-import Loader from '../components/Loader'
 import '../styles/Examples.css'
 import Proyect from '../components/Proyect'
 const Examples = () => {
-  const proyects = ["game3row"]
+  const proyects = ["food", "game3row"]
   return (
     <main className="examples-container">
       {/* <section className="wip-container">
@@ -11,7 +10,7 @@ const Examples = () => {
         <Loader />
       </section> */}
       <h2 className="title-example"> <FormattedMessage id="work-in-progress" /> </h2>
-      <section>
+      <section className='examples-grid'>
         {proyects.map(p => <Proyect key={p} title={p} />)}
       </section>
 
