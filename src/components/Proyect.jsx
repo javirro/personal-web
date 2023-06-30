@@ -6,13 +6,20 @@ import { FormattedMessage } from 'react-intl'
 const Proyect = ({ title }) => {
   const proyect = PROYECTS[title]
   const { front, back, url } = proyect
-  const imgToShow = game3rowImage
+  let imgToShow
+  let descriptionToShow = `examples-${title}-description`
+  if (title === "game3row") {
+    imgToShow = game3rowImage
+  } else if (title === "food") {
+    imgToShow = "example-food-description"
+  }
 
   return (
     <article className='proyect-container'>
       <div className="proyect-info">
         <img src={imgToShow} alt={title} className="proyect-img" />
-        <p><FormattedMessage id="examples-description" /></p>
+        <h4><FormattedMessage id="examples-description" /></h4>
+        <p><FormattedMessage id={descriptionToShow} /></p>
         {url && <a href={url} target='_blank' rel='noreferrer'><FormattedMessage id="examples-url" /></a>}
         {front && <a href={front} target='_blank' rel='noreferrer'><FormattedMessage id="examples-front" /></a>}
         {back && <a href={back} target='_blank' rel='noreferrer'><FormattedMessage id="examples-back" /></a>}

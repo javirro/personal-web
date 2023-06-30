@@ -13,6 +13,8 @@
   "examples-front": "See the front-end Github",
   "examples-back": "See the back-end Github",
   "examples-description": "Proyect description",
+  "examples-game3row-description": "This is an implementation of the famous three in a row game. It is perfect game for two players.",
+  "examples-food-description": "Show personal ranking of the best burgers and cheesecakes. The ranking is public information which everyone can see.",
   "management-stack": "Scrum methodology for project management.",
   "home-introduction": "Personal information",
   "home-projects": "Some personal projects",
