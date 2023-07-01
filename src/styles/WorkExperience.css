@@ -62,3 +62,34 @@
     background: rgba(53, 76, 248, 0.9);
     color: yellow;
 }
+
+@media (max-width: 500px) {
+    .section-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 0px;
+        color: white;
+    }
+    ul {
+        margin-left: 3%;
+        padding: 5px 3px;
+    }
+    .dev-position-title {
+        display: inline-block;
+        font-size: 0.9rem;
+        letter-spacing: 0.3px;
+    }
+    .fav-stack-btn {
+        position: relative;
+        top: -50px;
+        right: -200px;
+        font-size: 0.8rem;
+    }
+    .jobs-description-list {
+        margin-top: 5px;
+    }
+}
