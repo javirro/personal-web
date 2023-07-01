@@ -1,31 +1,33 @@
+@import url('main.css');
 .proyect-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: relative;
     padding: 15px 10px;
     width: 200px;
     height: 320px;
     border-radius: 8px;
-    border: 3px solid gold;
-    background-color: rgb(119, 147, 248);
-}
-
-.proyect-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    border: 3px solid rgb(46, 74, 125);
+    background-color: rgb(135, 171, 255);
 }
 
 .proyect-img {
     width: 170px;
     height: 170px;
+    border-radius: 4px;
 }
 
 .description-title {
+    width: 150px;
     margin-top: 3px;
     margin-bottom: 12px;
-    padding: 3px 8px;
-    background: darkgoldenrod;
+    padding: 4px 8px;
+    background: rgb(5, 0, 151);
     border-radius: 6px;
-    color: rgb(225, 225, 10);
+    text-align: center;
+    color: white;
+    font-family: var(--font-family);
     font-weight: bold;
     font-size: 1rem;
     letter-spacing: 1px;
@@ -33,13 +35,14 @@
 }
 
 .description-title:hover {
-    background: rgb(81, 58, 2);
+    background: rgb(4, 58, 250);
 }
 
 .description-text {
     overflow-wrap: break-word;
+    font-family: var(--font-family);
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 0.88rem;
 }
 
 .git-container {
@@ -50,13 +53,12 @@
     margin-bottom: 5px;
 }
 
-.front-git-text:hover::before {
+.front-git-text:hover::before,
+.back-git-text:hover::before {
     content: "Front-end";
     display: inline;
     position: absolute;
     z-index: 100;
-    bottom: -30px;
-    left: -10px;
     width: 60px;
     text-align: center;
     padding: 3px;
@@ -66,20 +68,15 @@
     font-size: 0.66rem;
 }
 
+.front-git-text:hover::before {
+    bottom: -30px;
+    left: -10px;
+}
+
 .back-git-text:hover::before {
     content: "Back-end";
-    display: inline;
-    position: absolute;
-    z-index: 100;
     bottom: -30px;
     left: 40px;
-    width: 60px;
-    text-align: center;
-    padding: 3px;
-    border: 1px solid black;
-    border-radius: 3px;
-    background-color: darkgrey;
-    font-size: 0.66rem;
 }
 
 .github-img {
