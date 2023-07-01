@@ -22,7 +22,7 @@ header {
 }
 
 .link:hover {
-    border: 5px solid rgb(26, 53, 255);
+    border: 5px solid rgb(247, 255, 26);
 }
 
 .link {
@@ -33,7 +33,7 @@ header {
     margin: 15px;
     border: 3px solid #010448;
     box-shadow: 4px 4px 4px #0009ab;
-    background: linear-gradient(#010786, #01099c);
+    background: linear-gradient(#848afd, #474ff3);
     color: white;
     text-decoration: none;
     font-family: var(--font-family);
