@@ -25,3 +25,10 @@ footer img {
     color: white;
     font-weight: 600;
 }
+
+@media (max-width: 425px) {
+    footer {
+        gap: 20px;
+        padding: 6px 4px;
+    }
+}
