@@ -31,7 +31,8 @@ footer img {
 @media (max-width: 500px) {
     footer {
         padding: 6px 4px;
-        gap: 15px;
+        display: inline-flex;
+        gap: 20px;
     }
     footer img {
         width: 20px;
