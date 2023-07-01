@@ -83,3 +83,21 @@
     width: 30px;
     height: 30px;
 }
+
+@media (max-width: 500px) {
+    .proyect-container {
+        padding: 10px 5px;
+        width: 150px;
+        height: 300px;
+    }
+    .proyect-img {
+        width: 130px;
+        height: 120px;
+    }
+    .description-title {
+        width: 130px;
+        margin-top: 3px;
+        margin-bottom: 12px;
+        padding: 4px 8px;
+    }
+}

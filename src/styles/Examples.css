@@ -21,3 +21,17 @@
     display: grid;
     grid-template-columns: repeat(3, 300px);
 }
+
+@media (max-width: 500px) {
+    .examples-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 180px);
+        place-items: center;
+        margin-top: 20px;
+    }
+    .title-example {
+        margin-top: 10px;
+        color: yellow;
+        font-size: 1.2rem;
+    }
+}
