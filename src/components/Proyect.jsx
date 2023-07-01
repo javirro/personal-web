@@ -2,6 +2,7 @@ import '../styles/proyect.css'
 import { PROYECTS } from '../constants'
 import foodImage from '../images/food.jpg'
 import tictactoe from '../images/tictactoe.jpg'
+import challengesImg from '../images/challenges.png'
 import github from '../images/githubIcon.svg'
 import { FormattedMessage } from 'react-intl'
 
@@ -13,6 +14,8 @@ const Proyect = ({ title }) => {
     imgToShow = tictactoe
   } else if (title === "food") {
     imgToShow = foodImage
+  } else if (title === "challenges") {
+    imgToShow = challengesImg
   }
 
   return (

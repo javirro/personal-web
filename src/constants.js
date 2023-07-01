@@ -8,4 +8,7 @@ export const PROYECTS = Object.freeze({
     url: "https://kaleidoscopic-wisp-fab2a1.netlify.app/",
     front: "https://github.com/javirro/three-in-row",
   },
+  challenges: {
+    front: "https://github.com/javirro/js-learning/tree/master/challenges",
+  },
 });

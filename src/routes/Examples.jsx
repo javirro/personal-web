@@ -4,7 +4,7 @@ import '../styles/Examples.css'
 import GlobalFooter from '../components/GlobalFooter'
 
 const Examples = () => {
-  const proyects = ["food", "game3row"]
+  const proyects = ["food", "game3row", "challenges"]
   return (
     <>
       <main className="examples-container">
