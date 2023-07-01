@@ -1,13 +1,14 @@
 @import url("main.css");
 .global-header-container {
     overflow: none;
-    max-width: 100%;
+    position: sticky;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 200px;
+    padding: 8px 2px;
     border: 1px solid black;
-    position: sticky;
     background: linear-gradient(to right, #010537, #010548);
     color: white
 }
@@ -27,14 +28,12 @@
 }
 
 h2 {
-    margin-left: 0;
+    margin: 0;
     letter-spacing: 2px;
     font-size: 1rem;
 }
 
 .back-button {
-    position: absolute;
-    left: 20px;
     padding: 5px 10px;
     border-radius: 7px;
     border: 3px solid rgb(8, 27, 170);
@@ -54,9 +53,9 @@ h2 {
 @media (max-width: 500px) {
     .global-header-container {
         display: flex;
-        justify-content: space-between;
-        gap: 20px;
-        padding: 8px 4px;
+        justify-content: space-around;
+        gap: 80px;
+        padding: 9px 4px;
     }
     .lang-selector {
         width: 90px;

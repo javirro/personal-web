@@ -1,4 +1,4 @@
-// import pruebaImagen from '../images/fondo.jpg'
+
 import personalImg from '../images/personaPhoto.jpeg'
 import { FormattedMessage } from 'react-intl'
 import '../styles/Introduction.css'

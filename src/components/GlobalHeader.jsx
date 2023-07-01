@@ -14,7 +14,7 @@ const GlobalHeader = () => {
   return (
     <div className="global-header-container">
       {pathname !== "/" && <Link className='back-button' to="/"><FormattedMessage id="back-button" /></Link>}
-      {pathname === "/" && <h2>Javier Rodríguez</h2>}
+      {pathname === "/" && <h2 className='text-name'>Javier Rodríguez</h2>}
       <select className="lang-selector" onChange={languageSelector}>
         <option defaultValue="Languages" disabled> Choose language / Elige idioma </option>
         <option value="en"><FormattedMessage id="language-en" /> </option>
