@@ -72,3 +72,16 @@ header {
         transform: rotate( 0.0deg)
     }
 }
+
+@media (max-width: 500px) {
+    .body-home-container {
+        grid-template-columns: repeat(1, 300px);
+        grid-template-rows: repeat(3, 100px);
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    header {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+}
