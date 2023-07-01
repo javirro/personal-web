@@ -9,9 +9,6 @@ const Proyect = ({ title }) => {
   const proyect = PROYECTS[title]
   const { front, back, url } = proyect
   let imgToShow
-  let titleToShow = `examples-${title}-title`
-  let descriptionToShow = `examples-${title}-description`
-
   if (title === "game3row") {
     imgToShow = game3rowImage
   } else if (title === "food") {
@@ -21,9 +18,9 @@ const Proyect = ({ title }) => {
   return (
     <article className='proyect-container'>
       <div className="proyect-info">
-        <a href={url} target='_blank' rel='noreferrer' className="description-title"><FormattedMessage id={titleToShow} /></a>
+        <a href={url} target='_blank' rel='noreferrer' className="description-title"><FormattedMessage id={`examples-${title}-title`} /></a>
         <img src={imgToShow} alt={title} className="proyect-img" />
-        <p className="description-text"><FormattedMessage id={descriptionToShow} /></p>
+        <p className="description-text"><FormattedMessage id={`examples-${title}-description`} /></p>
         <div className='git-container'>
           {front && <a href={front} target='_blank' rel='noreferrer' className='front-git-text'><img src={github} alt='github' className='github-img' /></a>}
           {back && <a href={front} target='_blank' rel='noreferrer' className='back-git-text'><img src={github} alt='github' className='github-img' /></a>}
