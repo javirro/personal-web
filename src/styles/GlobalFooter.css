@@ -1,12 +1,14 @@
 @import url("main.css");
 footer {
+    flex-shrink: 0;
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
-    position: sticky;
     gap: 50px;
     bottom: 0;
+    left: 0;
+    right: 0;
     width: 100%;
     height: var(--footer-height);
     padding-top: 5px;

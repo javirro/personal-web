@@ -1,6 +1,7 @@
 import { FormattedMessage } from 'react-intl'
 import { useState } from 'react'
 import FavStack from '../components/FavStack'
+import GlobalFooter from '../components/GlobalFooter'
 import '../styles/WorkExperience.css'
 
 const WorkExperience = () => {
@@ -60,6 +61,7 @@ const WorkExperience = () => {
           </li>
         </ul>
       </section>
+      <GlobalFooter />
     </div>
   )
 }

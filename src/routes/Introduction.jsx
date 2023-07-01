@@ -1,6 +1,7 @@
 
 import personalImg from '../images/personaPhoto.jpeg'
 import { FormattedMessage } from 'react-intl'
+import GlobalFooter from '../components/GlobalFooter'
 import '../styles/Introduction.css'
 
 
@@ -45,6 +46,7 @@ const Introduction = () => {
           </div>
         </div>
       </section>
+      <GlobalFooter />
     </div>
   )
 
