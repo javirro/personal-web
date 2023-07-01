@@ -1,7 +1,7 @@
 {
   "back-button": "Atrás",
   "contact-me": "Contacta conmigo",
-  "dev-position": "+2 años como desarrollador fullstack y blockchain ",
+  "dev-position": "+2 años de desarrollador fullstack y blockchain ",
   "fav-stack": "Tecnologías favoritas ",
   "frontend-stack": "React con JS/TS, CSS y Sass.",
   "backend-stack": "Node con JS/TS usando Express o Koa. Uso de tecnología serverless.",
@@ -23,7 +23,7 @@
   "home-introduction": "Información personal",
   "home-projects": "Proyectos personales",
   "home-welcome": "Encantado de saludarte",
-  "home-work-experience": "Experiencia profesional",
+  "home-work-experience": "Experiencia",
   "language-en": "Inglés",
   "language-esp": "Español",
   "languages-level": "Idiomas",
