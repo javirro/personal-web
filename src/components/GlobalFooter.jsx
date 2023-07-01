@@ -10,8 +10,8 @@ const GlobalFooter = () => {
   return (
     <footer>
       <span className="contact-me"> <FormattedMessage id="contact-me" /> </span>
-        <button onClick={linkedinHandleClick}><img src={linkedin} alt="linkedin icon" className='images' /></button>
-        <button onClick={emailHandleClick}><img src={email} alt="email icon" className='images' /></button>
+      <img src={linkedin} alt="linkedin icon"  onClick={linkedinHandleClick} />
+      <img src={email} alt="email icon"  onClick={emailHandleClick} />
     </footer>
   )
 }
