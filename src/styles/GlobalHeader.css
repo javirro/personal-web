@@ -50,3 +50,19 @@ h2 {
     background: rgb(8, 27, 170);
     border: 3px solid rgb(47, 71, 246);
 }
+
+@media (max-width: 425px) {
+    .global-header-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        padding: 8px 4px;
+    }
+    .lang-selector {
+        width: 90px;
+        margin-right: 8px;
+    }
+    h2 {
+        margin-left: 8px;
+    }
+}
