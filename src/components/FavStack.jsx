@@ -8,7 +8,7 @@ const FavStack = ({ setIsShownFavStack }) => {
     <div className="fav-stack-modal">
       <div className="fav-stack-content">
         <header className="modal-fav-stack-header">
-          <h3><FormattedMessage id="fav-stack" /></h3>
+          <h3 className="fav-stack-modal-title"><FormattedMessage id="fav-stack" /></h3>
           <button onClick={() => setIsShownFavStack(false)} className="close-btn">X <FormattedMessage id="work-experience-fav-close" /></button>
         </header>
         <section className="fav-stack-section">
