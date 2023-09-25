@@ -1,125 +1,132 @@
 @import url("main.css");
 .intro-global-container {
-    position: relative;
-    height: 100vh;
-    overflow: auto;
-    color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  color: white;
+  padding: 0px 50px 0px 80px;
 }
 
 .introduction-container {
-    display: grid;
-    grid-template-columns: 70% 20%;
-    gap: 10%;
-    border: 4px solid rgb(8, 27, 170);
-    border-radius: 10px;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 20px;
-    padding: 5px;
-    color: white;
+  display: grid;
+  grid-template-columns: 70% 20%;
+  gap: 10%;
+  border: 4px solid rgb(73, 94, 251);
+  background-color: rgb(1, 18, 65);
+  box-shadow: inset 0px 0px 5px rgb(100, 100, 255);
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 8px 12px;
+  color: white;
 }
 
-.personal-title {
-    font-family: var(--font-family);
-    font-size: 1rem;
-    margin-left: 10%;
-    margin-top: 30px;
+.introduction-personal-title {
+  margin-top: 30px;
+  font-family: var(--font-family);
+  font-size: 1.3rem;
 }
 
 .personal-text {
-    padding: 5px 15px 5px 15px;
-    line-height: 1.25;
-    font-weight: 500;
-    font-family: var(--font-family);
-    font-size: 0.85rem;
-    text-align: center;
+  padding: 5px 15px 5px 15px;
+  line-height: 1.25;
+  font-weight: 500;
+  font-family: var(--font-family);
+  font-size: 0.95rem;
+  text-align: center;
 }
 
 .personal-img {
-    width: 200px;
-    height: 250px;
-    border-radius: 10px;
-    border: 2px solid rgb(1, 6, 45);
-    position: relative;
+  width: 200px;
+  height: 250px;
+  border-radius: 10px;
+  border: 2px solid rgb(1, 6, 45);
+  position: relative;
 }
 
 .studies-container {
-    margin-top: 15px;
-    margin-left: 10%;
-    margin-right: 10%;
-    border: 4px solid rgb(8, 27, 170);
-    border-radius: 10px;
-    font-family: var(--font-family);
-    font-size: 0.85rem;
+  width: 100%;
+  margin-top: 15px;
+  border: 4px solid rgb(73, 94, 251);
+  background-color: rgb(1, 18, 65);
+  box-shadow: inset 0px 0px 5px rgb(100, 100, 255);
+  border-radius: 10px;
+  font-family: var(--font-family);
+  font-size: 0.95rem;
 }
 
 .studies-list {
-    line-height: 1.4;
-    font-weight: 500;
+  line-height: 1.7;
+  font-weight: 500;
 }
 
 .year-studies {
-    opacity: 0.7;
-    font-size: 0.8rem;
+  opacity: 0.7;
+  font-size: 0.8rem;
 }
 
 .other-studies-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-top: 10px;
-    margin-bottom: 30px;
-    margin-left: 10%;
-    margin-right: 10%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 .other-studies {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    height: 50px;
-    margin-top: 10px;
-    margin-left: 5px;
-    border: 4px solid rgb(8, 27, 170);
-    border-radius: 10px;
-    font-family: var(--font-family);
-    font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 5px;
+  padding: 5px;
+  border: 4px solid rgb(73, 94, 251);
+  background-color: rgb(1, 18, 65);
+  box-shadow: inset 0px 0px 5px rgb(100, 100, 255);
+  border-radius: 10px;
+  font-family: var(--font-family);
+  font-size: 0.9rem;
 }
 
 .other-title {
-    font-family: var(--font-family);
-    font-size: 1.1rem;
-    margin-top: 15px;
+  font-family: var(--font-family);
+  font-size: 1.3rem;
+  margin-top: 15px;
 }
 
 .other-studies-item {
-    display: inline-block;
-    margin-left: 15px;
-    margin-right: 25px
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 25px;
 }
 
 @media (max-width: 500px) {
-    .introduction-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin-left: 5%;
-        margin-right: 5%;
+    .intro-global-container {
+        padding: 10px 25px;
     }
-    .personal-title {
-        margin-left: 0px;
-        text-align: left;
-    }
-    .studies-container {
-        padding: 1px 2px;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-    .other-studies-container {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        margin-left: 5%;
-        margin-right: 5%;
-    }
+  .introduction-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .personal-title {
+    margin-left: 0px;
+    text-align: left;
+  }
+  .studies-container {
+    width: 100%;
+    padding: 1px 2px;
+  }
+  .other-studies-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

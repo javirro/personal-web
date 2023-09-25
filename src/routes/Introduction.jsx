@@ -9,8 +9,9 @@ import '../styles/Introduction.css'
 
 const Introduction = () => {
   return (
+    <>
     <div className="intro-global-container">
-      <h2 className="personal-title"><FormattedMessage id="personal-introduction" /></h2>
+        <h2 className="introduction-personal-title"><FormattedMessage id="personal-introduction" /></h2>
       <section className="introduction-container">
         <div id="personal-text-container">
           <p className="personal-text"><FormattedMessage id="personal-description" /></p>
@@ -24,7 +25,7 @@ const Introduction = () => {
         />
       </section>
 
-      <h2 className="personal-title"><FormattedMessage id="universitary-studies" /></h2>
+        <h2 className="introduction-personal-title"><FormattedMessage id="universitary-studies" /></h2>
       <section className="studies-container">
         <ul className="studies-list">
           <li><FormattedMessage id="studies-pmp" /> <FormattedMessage id="studies-unir" /> <span className="year-studies">(2022)</span></li>
@@ -52,8 +53,9 @@ const Introduction = () => {
           </div>
         </div>
       </section>
+      </div>
       <GlobalFooter />
-    </div>
+    </>
   )
 
 }
