@@ -26,6 +26,7 @@ const Proyect = ({ title }) => {
       <a href={url} target='_blank' rel='noreferrer' className="description-title"><FormattedMessage id={`examples-${title}-title`} /></a>
       <LazyLoadImage src={imgToShow}
         className="proyect-img"
+        effect='blur'
         alt="Proyect image"
         placeholder={<Loader />}
       />
