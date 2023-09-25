@@ -19,7 +19,7 @@ const Introduction = () => {
         <LazyLoadImage src={personalImg}
           className='personal-img'
           effect='blur'
-          alt="Image Alt"
+          alt="Personal image"
         />
       </section>
 

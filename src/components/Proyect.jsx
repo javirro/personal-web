@@ -5,6 +5,8 @@ import tictactoe from '../images/tictactoe.jpg'
 import challengesImg from '../images/challenges.png'
 import github from '../images/githubIcon.svg'
 import { FormattedMessage } from 'react-intl'
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import Loader from './Loader'
 
 const Proyect = ({ title }) => {
   const proyect = PROYECTS[title]
@@ -21,7 +23,12 @@ const Proyect = ({ title }) => {
   return (
     <article className='proyect-container'>
       <a href={url} target='_blank' rel='noreferrer' className="description-title"><FormattedMessage id={`examples-${title}-title`} /></a>
-      <img src={imgToShow} alt={title} className="proyect-img" />
+      <LazyLoadImage src={imgToShow}
+        className="proyect-img"
+        effect="blur"
+        alt="Personal image"
+        placeholder={<Loader />}
+      />
       <p className="description-text"><FormattedMessage id={`examples-${title}-description`} /></p>
       <div className='git-container'>
         {front && <a href={front} target='_blank' rel='noreferrer' className='front-git-text'><img src={github} alt='github' className='github-img' /></a>}
