@@ -8,7 +8,8 @@
 
 .introduction-container {
     display: grid;
-    grid-template-columns: 66% 33%;
+    grid-template-columns: 70% 20%;
+    gap: 10%;
     border: 4px solid rgb(8, 27, 170);
     border-radius: 10px;
     margin-left: 10%;
@@ -37,8 +38,6 @@
 .personal-img {
     width: 200px;
     height: 250px;
-    margin-left: auto;
-    margin-right: auto;
     border-radius: 10px;
     border: 2px solid rgb(1, 6, 45);
     position: relative;
