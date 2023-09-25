@@ -7,6 +7,7 @@ import github from '../images/githubIcon.svg'
 import { FormattedMessage } from 'react-intl'
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import Loader from './Loader'
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const Proyect = ({ title }) => {
   const proyect = PROYECTS[title]

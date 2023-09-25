@@ -3,6 +3,7 @@ import personalImg from '../images/personaPhoto.jpeg'
 import { FormattedMessage } from 'react-intl'
 import GlobalFooter from '../components/GlobalFooter'
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import 'react-lazy-load-image-component/src/effects/blur.css';
 import '../styles/Introduction.css'
 
 
