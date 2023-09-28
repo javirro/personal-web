@@ -64,7 +64,7 @@
   background: rgba(53, 76, 248, 0.9);
   color: yellow;
 }
-.btn-see-work{
+.btn-see-work {
   margin-top: 40px;
   margin-bottom: 30px;
   width: 300px;
@@ -72,9 +72,14 @@
   font-size: 1.4rem;
   cursor: pointer;
   border-radius: 5px;
+  box-shadow: inset 0px 0px 15px rgba(53, 76, 248, 0.9);;
+  background-color: rgb(127, 185, 255);
 }
 
 @media (max-width: 500px) {
+  h2 {
+    text-align: center;
+  }
   .section-container {
     display: flex;
     justify-content: center;
@@ -90,8 +95,7 @@
     padding: 5px 3px;
   }
   .dev-position-title {
-    display: inline-block;
-    font-size: 0.9rem;
+    font-size: 1.7rem;
     letter-spacing: 0.3px;
   }
   .fav-stack-btn {

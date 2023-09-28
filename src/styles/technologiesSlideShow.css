@@ -66,3 +66,38 @@
   width: 40px;
   height: 40px;
 }
+
+@media (max-width: 500px) {
+  .slideshow-out-container {
+    margin-top: 15px;
+    gap: 10px;
+    padding: 10px;
+    width: 80%;
+  }
+
+  .work-tech-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .img-tech {
+    width: 60px;
+    height: 60px;
+  }
+  .tech-type-title {
+    font-size: 1.5rem;
+    color: white;
+    letter-spacing: 1px;
+  }
+
+  .tech-name {
+    color: white;
+    font-size: 1.2rem;
+  }
+  .img-arrows {
+    width: 30px;
+    height: 30px;
+  }
+}
