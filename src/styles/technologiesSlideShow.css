@@ -1,0 +1,68 @@
+.slideshow-out-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid rgb(73, 94, 251);
+  background-color: rgb(1, 18, 65);
+  box-shadow: inset 0px 0px 5px rgb(100, 100, 255);
+  border-radius: 6px;
+  position: relative;
+  margin-top: 30px;
+  gap: 20px;
+  padding: 20px;
+  width: 670px;
+}
+
+.work-tech-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.tech-type-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.img-tech {
+  width: 80px;
+  height: 80px;
+}
+.tech-type-title {
+  font-size: 1.5rem;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.tech-name {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.btn {
+  background: transparent;
+  cursor: pointer;
+  padding: 1px 4px;
+  border-radius: 4px;
+}
+.button-back {
+  position: absolute;
+  top: auto;
+  left: 15px;
+}
+
+.button-next {
+  position: absolute;
+  top: auto;
+  right: 15px;
+}
+
+.img-arrows {
+  width: 40px;
+  height: 40px;
+}

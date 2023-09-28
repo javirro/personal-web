@@ -1,95 +1,106 @@
 @import url("main.css");
 .work-experience-container {
-    overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: auto;
+  height: 100vh;
+  flex: 1;
 }
 
 .section-container {
-    margin-left: 12%;
-    margin-right: 12%;
-    margin-top: 20px;
-    color: white;
+  margin-left: 12%;
+  margin-right: 12%;
+  margin-top: 20px;
+  color: white;
 }
 
 .dev-position-title {
-    color: rgb(225, 225, 32);
-    font-weight: bold;
+  margin-top: 30px;
+  color: rgb(225, 225, 32);
+  text-shadow: 0px 0px 5px rgb(97, 97, 5);
+  font-weight: bold;
+  font-family: var(--font-family);
+  font-size: 2.2rem;
 }
 
 .dev-position-year {
-    color: yellow;
-    font-weight: bold;
-}
-
-.personal-title {
-    font-family: var(--font-family);
-    font-size: 1.1rem;
-    margin-left: 10%;
-    margin-top: 30px;
-    color: white;
+  color: yellow;
+  font-weight: bold;
 }
 
 .company-name {
-    display: block;
-    width: auto;
-    font-family: var(--font-family);
-    font-size: 0.95rem;
-    font-weight: bold;
-    text-decoration: none;
-    color: yellow;
+  display: block;
+  width: auto;
+  font-family: var(--font-family);
+  font-size: 0.95rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: yellow;
 }
 
 .jobs-description-list {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    line-height: 1.5;
-    font-size: 0.8rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+  font-size: 0.8rem;
 }
 
 .fav-stack-btn {
-    margin-left: 10px;
-    padding: 4px;
-    padding-right: 8px;
-    border-radius: 4px;
-    border: 2px solid rgb(0, 3, 79);
-    box-shadow: 2px 2px 2px rgb(0, 3, 79);
-    background: rgba(113, 165, 255, 0.9);
-    font-size: 0.9rem;
-    font-family: var(--font-family);
-    cursor: pointer;
+  margin-left: 10px;
+  padding: 4px;
+  padding-right: 8px;
+  border-radius: 4px;
+  border: 2px solid rgb(0, 3, 79);
+  box-shadow: 2px 2px 2px rgb(0, 3, 79);
+  background: rgba(113, 165, 255, 0.9);
+  font-size: 0.9rem;
+  font-family: var(--font-family);
+  cursor: pointer;
 }
 
 .fav-stack-btn:hover {
-    background: rgba(53, 76, 248, 0.9);
-    color: yellow;
+  background: rgba(53, 76, 248, 0.9);
+  color: yellow;
+}
+.btn-see-work{
+  margin-top: 40px;
+  margin-bottom: 30px;
+  width: 300px;
+  padding: 8px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 @media (max-width: 500px) {
-    .section-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin-left: 3%;
-        margin-right: 3%;
-        margin-top: 0px;
-        color: white;
-    }
-    ul {
-        margin-left: 3%;
-        padding: 5px 3px;
-    }
-    .dev-position-title {
-        display: inline-block;
-        font-size: 0.9rem;
-        letter-spacing: 0.3px;
-    }
-    .fav-stack-btn {
-        position: relative;
-        top: -50px;
-        right: -200px;
-        font-size: 0.8rem;
-    }
-    .jobs-description-list {
-        margin-top: 5px;
-    }
+  .section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 0px;
+    color: white;
+  }
+  ul {
+    margin-left: 3%;
+    padding: 5px 3px;
+  }
+  .dev-position-title {
+    display: inline-block;
+    font-size: 0.9rem;
+    letter-spacing: 0.3px;
+  }
+  .fav-stack-btn {
+    position: relative;
+    top: -50px;
+    right: -200px;
+    font-size: 0.8rem;
+  }
+  .jobs-description-list {
+    margin-top: 5px;
+  }
 }
