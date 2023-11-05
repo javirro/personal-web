@@ -15,14 +15,14 @@ const Home = () => {
           <div className="individual-landing-container">
             <img src={landingImgs.personalImg} alt='personal logo' className="landing-imgs" />
             <div className="text-container-landing">
-              <p className="texts-landings">Discover information about my studies, my passions and the stuffs that I like.</p>
+              <p className="texts-landings"><FormattedMessage id="home-discover-personal" /></p>
               <Link className='link' to="/personal-info"><FormattedMessage id="home-introduction" /> </Link>
             </div>
 
           </div>
           <div className="individual-landing-container">
             <div className="text-container-landing">
-              <p className="texts-landings">Discover information about my previous work experiences and my favourite tech stack.</p>
+              <p className="texts-landings"><FormattedMessage id="home-discover-work" /></p>
               <Link className='link' to="/work-experience"><FormattedMessage id="home-work-experience" /></Link>
             </div>
             <img src={landingImgs.workImg} alt='personal logo' className="landing-imgs" />
@@ -31,7 +31,7 @@ const Home = () => {
           <div className="individual-landing-container">
             <img src={landingImgs.websiteImg} alt='personal logo' className="landing-imgs" />
             <div className="text-container-landing">
-              <p className="texts-landings">Discover my best personal projects and see how they are implemented.</p>
+              <p className="texts-landings"><FormattedMessage id="home-discover-project" /></p>
               <Link className='link' to="/example"><FormattedMessage id="home-projects" /></Link>
             </div>
           </div>
