@@ -70,7 +70,7 @@
 }
 .link:hover {
   background: rgb(255, 244, 33);
-  color:#010448;
+  color: #010448;
 }
 
 .link {
@@ -129,12 +129,51 @@
     margin-left: 0px;
   }
   .landing-title {
-    font-size: 1.7rem;
+    font-size: 2.1rem;
     text-align: center;
     padding: 10px 5px 0px 5px;
   }
 
   .link {
     font-size: 1.1rem;
+  }
+
+  .body-home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    margin-top: 30px;
+    padding-bottom: 40px;
+  }
+
+  .individual-landing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .landing-imgs {
+    width: 100px;
+    height: 100px;
+    box-sizing: content-box;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: #010448;
+    outline: 8px solid rgb(0, 122, 146);
+  }
+
+  .texts-landings {
+    width: 300px;
+    text-align: center;
+    color: rgb(186, 186, 186);
+    font-size: 1.3rem;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    font-style: italic;
   }
 }

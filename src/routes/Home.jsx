@@ -3,9 +3,13 @@ import { FormattedMessage } from 'react-intl'
 import GlobalFooter from '../components/GlobalFooter'
 import landingImgs from '../images/landing'
 import '../styles/Home.css'
+import useWidthScreenSize from '../hooks/useWidthScreenSize'
 
 
 const Home = () => {
+
+  const currentWidth = useWidthScreenSize()
+  console.log(currentWidth)
   return (
     <>
       <main className="main-home-container">
@@ -20,13 +24,22 @@ const Home = () => {
             </div>
 
           </div>
-          <div className="individual-landing-container">
-            <div className="text-container-landing">
-              <p className="texts-landings"><FormattedMessage id="home-discover-work" /></p>
-              <Link className='link' to="/work-experience"><FormattedMessage id="home-work-experience" /></Link>
+          {currentWidth > 500 ?
+            <div className="individual-landing-container">
+              <div className="text-container-landing">
+                <p className="texts-landings"><FormattedMessage id="home-discover-work" /></p>
+                <Link className='link' to="/work-experience"><FormattedMessage id="home-work-experience" /></Link>
+              </div>
+              <img src={landingImgs.workImg} alt='personal logo' className="landing-imgs" />
             </div>
-            <img src={landingImgs.workImg} alt='personal logo' className="landing-imgs" />
-          </div>
+            :
+            <div className="individual-landing-container">
+              <img src={landingImgs.workImg} alt='personal logo' className="landing-imgs" />
+              <div className="text-container-landing">
+                <p className="texts-landings"><FormattedMessage id="home-discover-work" /></p>
+                <Link className='link' to="/work-experience"><FormattedMessage id="home-work-experience" /></Link>
+              </div>
+            </div>}
 
           <div className="individual-landing-container">
             <img src={landingImgs.websiteImg} alt='personal logo' className="landing-imgs" />
