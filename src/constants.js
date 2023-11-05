@@ -1,6 +1,6 @@
 export const PROYECTS = Object.freeze({
   food: {
-    url: "https://chipper-faloodeh-706472.netlify.app/",
+    url: "https://food-ranking.netlify.app/",
     front: "https://github.com/javirro/food-ranking-ui",
     back: "https://github.com/javirro/food-ranking-api",
   },
