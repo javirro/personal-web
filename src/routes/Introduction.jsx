@@ -1,9 +1,7 @@
 
-import personalImg from '../images/personaPhoto.jpeg'
+
 import { FormattedMessage } from 'react-intl'
 import GlobalFooter from '../components/GlobalFooter'
-import { LazyLoadImage } from "react-lazy-load-image-component";
-import 'react-lazy-load-image-component/src/effects/blur.css';
 import '../styles/Introduction.css'
 
 
@@ -17,12 +15,7 @@ const Introduction = () => {
           <p className="personal-text"><FormattedMessage id="personal-description" /></p>
           <p className="personal-text"><FormattedMessage id="personal-description-2" /></p>
           <p className="personal-text"><FormattedMessage id="personal-description-3" /></p>
-        </div>
-        <LazyLoadImage src={personalImg}
-          className='personal-img'
-          effect='blur'
-          alt="Personal image"
-        />
+          </div>
       </section>
 
         <h2 className="introduction-personal-title"><FormattedMessage id="universitary-studies" /></h2>
