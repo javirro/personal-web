@@ -34,7 +34,7 @@
   display: block;
   width: auto;
   font-family: var(--font-family);
-  font-size: 0.95rem;
+  font-size: 1.2rem;
   font-weight: bold;
   text-decoration: none;
   color: yellow;
@@ -44,7 +44,8 @@
   margin-top: 10px;
   margin-bottom: 10px;
   line-height: 1.5;
-  font-size: 0.8rem;
+  font-size: 1rem;
+  letter-spacing: 1px;
 }
 
 .fav-stack-btn {
@@ -65,6 +66,10 @@
   color: yellow;
 }
 .btn-see-work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
   margin-top: 40px;
   margin-bottom: 30px;
   width: 300px;
@@ -76,6 +81,13 @@
   background-color: rgb(127, 185, 255);
 }
 
+.check-arrow-img {
+  width: 20px;
+  height: 20px
+}
+.rotated {
+transform: rotate(90deg);
+}
 @media (max-width: 500px) {
   h2 {
     text-align: center;
